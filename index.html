@@ -1,1 +1,20 @@
 <!-- Your HTML goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>311 Calls in Boston (2023)</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="chart-container">
+	<div class="chart-title">Top 10 Reasons for 311 Calls in Boston (2023)</div>
+	<div class="chart-subtitle">Based on data from <a href="https://data.boston.gov/dataset/311-service-requests" target="_blank">Boston 311 Service Requests</a></div>
+	<svg id="barchart1"></svg>
+	<div class="citation">Source: <a href="https://data.boston.gov/dataset/311-service-requests" target="_blank">Boston 311 Service Requests</a></div>
+</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
